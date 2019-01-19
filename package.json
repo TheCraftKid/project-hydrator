@@ -8,6 +8,7 @@
     "lib": "lib"
   },
   "scripts": {
+    "build": "node_modules/.bin/tsc",
     "lint": "node_modules/.bin/tslint -c tslint.json 'src/**/*.ts'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/TheCraftKid/silver-pancake#readme",
   "devDependencies": {
+    "@types/node": "^10.12.18",
     "tslint": "^5.12.1",
     "typescript": "^3.2.4"
   },

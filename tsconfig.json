@@ -4,8 +4,13 @@
     "module": "es2015",
     "declaration": true,
     "outDir": "./lib",
-    "rootDir": "./src",
     "strict": true,
-    "esModuleInterop": true
-  }
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "config/**/*.ts"
+  ]
 }
