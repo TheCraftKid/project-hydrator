@@ -1,0 +1,5 @@
+theme: jekll-theme-minimal
+title: Project Hydrator
+description: A tool that stores project backups and provides a means of easily fetching them.
+
+google_analytics: UA-99670122-7
