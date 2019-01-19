@@ -2,12 +2,13 @@
   "name": "spancake",
   "version": "0.1.0",
   "description": "A tool that stores project backups and provides a means of easily fetching them.",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "directories": {
     "doc": "docs",
-    "lib": "dist"
+    "lib": "lib"
   },
   "scripts": {
+    "lint": "node_modules/.bin/tslint -c tslint.json 'src/**/*.ts'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "github:WillieCubed/silver-pancake",
@@ -20,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/TheCraftKid/silver-pancake/issues"
   },
-  "homepage": "https://github.com/TheCraftKid/silver-pancake#readme"
+  "homepage": "https://github.com/TheCraftKid/silver-pancake#readme",
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "commander": "^2.19.0"
+  }
 }
