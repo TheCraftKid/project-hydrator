@@ -1,4 +1,4 @@
-theme: jekll-theme-minimal
+theme: jekyll-theme-minimal
 title: Project Hydrator
 description: A tool that stores project backups and provides a means of easily fetching them.
 
