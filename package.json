@@ -1,0 +1,24 @@
+{
+  "name": "spancake",
+  "version": "0.1.0",
+  "description": "A tool that stores project backups and provides a means of easily fetching them.",
+  "main": "dist/index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "dist"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "github:WillieCubed/silver-pancake",
+  "keywords": [
+    "project",
+    "manager"
+  ],
+  "author": "Willie Chalmers III <willieechalmers@gmail.com> (https://williecubed.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheCraftKid/silver-pancake/issues"
+  },
+  "homepage": "https://github.com/TheCraftKid/silver-pancake#readme"
+}
